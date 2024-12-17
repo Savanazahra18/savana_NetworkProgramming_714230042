@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Network Monitoring System</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>🐧 Network Monitoring System 🐧</h1>
+        <div class="status-card">
+            <h2>Connection Status</h2>
+            <div id="status-indicator" class="status">--</div>
+            <p id="status-message"></p>
+            <p id="time-status">Last Online: Never</p>
+            <div id="emoji-container">🤔</div> <!-- Emoji atau gambar lucu -->
+        </div>
+
+        <div class="history-card">
+            <h2>📜 Connection History</h2>
+            <table id="history-table">
+                <thead>
+                    <tr>
+                        <th>Status</th>
+                        <th>Time</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <!-- Riwayat akan ditambahkan secara dinamis -->
+                </tbody>
+            </table>
+        </div>
+
+        <footer>
+            &#169; 2024 Network Monitor | Made with ❤️
+        </footer>
+    </div>    
+    <img src="image/lucu.webp" alt="Right Character" class="side-character right-character">
+    <script src="script.js"></script>
+</body>
+</html>
